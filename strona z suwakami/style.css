@@ -1,0 +1,36 @@
+.logo {
+
+    background-color: orange;
+    height: 300px;
+    width: 400px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+    
+}
+#left {
+    width: 25%;
+    float: left;
+    height: 940px;
+}
+#right {
+    width: 75%;
+    float: right;
+    height: 840px;
+    background-color: rgb(202, 198, 198);
+    font-weight: 50;
+    color: white;
+    text-align: end ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+#text{
+    text-align: end;
+    margin: 50% 20px;
+}
+h2 {
+    font-size: 50px;
+}

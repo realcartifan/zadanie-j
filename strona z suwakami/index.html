@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            
+         <div class="logo"><img src="obfdrovd1.png" alt=""></div>
+         <h1>Dostępne filtry</h1>
+<form>
+    <label for="search"></label>
+    <input type="text" id="search" placeholder=""><br><br>
+
+    <select id="Miasto">
+        <option value="">Miasto</option>
+        <option value="warszawa">Warszawa</option>
+        <option value="krakow">Kraków</option>
+        <option value="wroclaw">Wrocław</option>
+        <option value="lublin">Lublin</option>
+        <option value="gdansk">Gdańsk</option>
+        <option value="białystok">Białystok</option>
+        <option value="szczecin">Szczecin</option>
+    </select><br>
+
+    <label for="cena">Cena za litr od:</label>
+    <input type="range" id="cena" min="0" max="10" value="0">
+    <span id="cena-value">0</span> zł<br><br>
+
+    <label for="cena">Cena za litr do:</label>
+    <input type="range" id="cena" min="0" max="10" value="10">
+    <span id="cena">10</span> zł<br><br>
+
+    <input type="submit" value="Szukaj"/>
+    <input type="reset" value="Wyczyść"/>
+        </div>
+    <div id="right">
+        <div id="text">
+           <h2> Wyniki awyszukiwania:</h2>
+        </div>
+
+    </div>
+    </div>
+    <div id="tet" >
+        Wyniki wyszukiwania:
+    </div>
+</form>
+</body>
+</html>
